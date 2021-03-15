@@ -24,7 +24,7 @@ function deleteIndexList(index){
         console.log("Failed To delete -- ######");
     }
     else{
-        list.splice(1,1);
+        list.splice(index,1);
         console.log("Deleted Successfully");
     }
     
