@@ -42,6 +42,11 @@ while(true){
     }
     else if(trigger === "delete"){
         var index = prompt("Index");
+        parseInt(index);
+        if(isNaN(index)){
+            console.log("Invalid index");
+            continue;
+        }
         deleteIndexList(index);
     }
     else{
